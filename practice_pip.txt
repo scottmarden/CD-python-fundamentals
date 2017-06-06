@@ -1,0 +1,15 @@
+"pip install Django" - installs new third party tools, in this case, Django is installed. Pip downloads and installs all necessary packages for Django with little need for guidance.
+
+"pip list" - lists all installed packages, can be filtered to list editable packages, outdated, uptodate etc.
+
+"pip install Django" - if package is already installs, pip gives feedback stating such, along with the location of the install files.
+
+"pip freeze" - lists packages in requirements format.
+
+"pip freeze > requirements.txt" creates a new file called 'requirements.txt' in the current directory
+
+"pip uninstall Django" - uninstalls Django, provides prompt to confirm uninstall
+
+"pip show Django" - nothing happens as Django was uninstalled. Would normally show information about an installed package
+
+"pip search Flask" - searches available plugins and packages with the term 'Flask' in title or description
